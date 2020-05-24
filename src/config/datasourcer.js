@@ -2,7 +2,7 @@ import Sequelize from 'sequelize'
 import fs from 'fs'
 import path from 'path'
 
-let database = null
+let database = null 
 
 const loadModels = (sequelize) => {
   
