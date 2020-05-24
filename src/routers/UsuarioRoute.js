@@ -1,4 +1,4 @@
-const UsuarioController = require('../Controllers/UsuariosController')
+import UsuarioController from '../Controllers/UsuariosController'
 
 export default (app) => {
 

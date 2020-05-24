@@ -1,4 +1,4 @@
-const Bcrypt =  require("bcrypt");
+import Bcrypt from "bcrypt";
 
 export default (sequelize, Datatype) => {
     const Usuarios = sequelize.define('Usuarios', {
