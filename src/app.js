@@ -1,9 +1,9 @@
-import Express from 'express'
-import RouterManager from '../src/routers/RouterManager'
-import cors from 'cors'
-import BodyParser from 'body-parser'
-import config from '../src/config/config'
-import datasourcer from '../src/config/datasourcer'
+const Express =  require('express')
+const RouterManager = require('../src/routers/RouterManager')
+const cors = require('cors')
+const BodyParser = require('body-parser')
+const config = require('../src/config/config')
+const datasourcer = require('../src/config/datasourcer')
 
 const app = Express()
 
@@ -15,7 +15,7 @@ app.use(BodyParser.urlencoded({ extended: false }))
 
 RouterManager(app)
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 3000
 app.listen(port, () => {
     console.log(`SERVER RUNNING ON PORT ${port}`)
 })
