@@ -1,0 +1,30 @@
+{
+  "name": "backend-paralisia",
+  "version": "1.0.0",
+  "description": "Base de dados",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/app",
+    "postinstall": "babel-node src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rhalf Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-redis": "^4.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "ioredis": "^4.17.1",
+    "sequelize": "^5.21.9",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.4"
+  }
+}
