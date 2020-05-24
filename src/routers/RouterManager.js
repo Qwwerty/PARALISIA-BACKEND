@@ -1,4 +1,4 @@
-import RouterUsuario from '../routers/UsuarioRoute'
+const RouterUsuario =  require('../routers/UsuarioRoute')
 
 export default (app) => {
     RouterUsuario(app)
