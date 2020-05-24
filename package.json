@@ -13,6 +13,7 @@
   "dependencies": {
     "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
+    "caniuse-lite": "^1.0.30001064",
     "connect-redis": "^4.0.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
