@@ -4,7 +4,7 @@
   "description": "Base de dados",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app",
+    "start": "babel-node src/app",
     "postinstall": "babel-node src/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
