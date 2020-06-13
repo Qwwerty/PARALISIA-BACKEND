@@ -19,6 +19,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "ioredis": "^4.17.1",
+    "nodemailer": "^6.4.8",
     "sequelize": "^5.21.9",
     "sqlite3": "^4.2.0"
   },

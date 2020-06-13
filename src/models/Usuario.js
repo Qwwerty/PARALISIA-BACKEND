@@ -25,6 +25,14 @@ export default (sequelize, Datatype) => {
                 notEmpty: true
             }
         },
+        pontos: {
+            type: Datatype.INTEGER,
+            allowNull: false,
+            defaultValue: 0,
+            validate: {
+                notEmpty: true
+            }
+        }
     },
     {
         hooks: {
