@@ -6,6 +6,7 @@ export default (app) => {
 
     app.post('/pedirSenha', (req, res) => {
         let status = utilController.pedirSenha(req.body.email).then(result => {
+
             if(result == true)
                 res.json({status: true})
             else
