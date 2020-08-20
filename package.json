@@ -11,7 +11,7 @@
   "author": "Rhalf Oliveira",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "caniuse-lite": "^1.0.30001064",
     "connect-redis": "^4.0.4",
